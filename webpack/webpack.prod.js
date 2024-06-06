@@ -19,7 +19,7 @@ module.exports = async () =>
       main: './src/app/index',
     },
     output: {
-      path: utils.root('build/resources/main/static/'),
+      path: utils.root('build/static/'),
       filename: '[name].[contenthash:8].js',
       chunkFilename: '[name].[chunkhash:8].chunk.js',
     },
