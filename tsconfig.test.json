@@ -1,10 +1,10 @@
 {
   "extends": "./tsconfig",
-  "include": ["src/main/webapp/app", "src/main/webapp/microfrontends"],
+  "include": ["src/app", "src/microfrontends"],
   "exclude": [],
   "compilerOptions": {
     "paths": {
-      "app/*": ["src/main/webapp/app/*"]
+      "app/*": ["src/app/*"]
     },
     "types": ["jest", "webpack-env"]
   }
